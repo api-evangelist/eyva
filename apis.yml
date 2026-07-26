@@ -1,22 +1,73 @@
 aid: eyva
 name: Eyva
-description: Eyva is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eyva (operated by datazeit GmbH of Cologne, Germany) is an AI-powered
+  portfolio-intelligence platform for the beauty and personal-care industry. It
+  unifies consumer, market, and product data so product, marketing, and R&D
+  teams can detect emerging consumer trends across Google search, TikTok,
+  Instagram, and product reviews, benchmark their portfolio, run gap and
+  competitive analysis, track ingredients and claims, and develop AI-assisted
+  product concepts. The platform bundles an AI research assistant, automated AI
+  reporting, and data-backed product recommendations, and is used by 700+ teams
+  at brands including Beiersdorf, Nivea, dm, BASF, Babor, and Lavera. Eyva is a
+  portfolio company of Earlybird Venture Capital. It is a B2B SaaS delivered
+  through a demo-led sales motion and an authenticated web application; no
+  public developer API surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/eyva/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.prismic.io/evya/aLx0P2GNHVfTOu6b_Feb212025Screenshot.webp?auto=format,compress&w=1200&h=630
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-entity: datazeit GmbH
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Beauty
+- Personal Care
+- Consumer Insights
+- Market Intelligence
+- Artificial Intelligence
+- Product Development
+- Trend Detection
+- SaaS
+- Analytics
 apis: []
+common:
+- type: Website
+  url: https://www.eyva.ai/en
+- type: Login
+  url: https://app.eyva.ai
+- type: TermsOfService
+  url: https://www.eyva.ai/terms-of-service
+- type: Imprint
+  url: https://www.eyva.ai/en/imprint
+- type: LinkedIn
+  url: https://de.linkedin.com/company/eyva-ai
+- type: DomainSecurity
+  url: security/eyva-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
