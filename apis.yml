@@ -46,7 +46,7 @@ x-tier-reason: portfolio-lead
 x-legal-entity: datazeit GmbH
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Beauty
@@ -71,6 +71,8 @@ tags_raw:
 - Analytics
 apis: []
 common:
+- url: https://www.eyva.ai/en/blog
+  type: Blog
 - type: Website
   url: https://www.eyva.ai/en
 - type: Login
